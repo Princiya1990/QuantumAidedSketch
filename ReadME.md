@@ -1,4 +1,4 @@
-# Quantum-Aided Acne Severity Detection: A Framework with Enhanced Sketch-Based Imaging
+# Quantum-Aided Acne Severity Detection: A Framework with Enhanced Sketch-Based Acne Recognition
 #### Philomina Princiya Mascarenhas, Sannidhan M S, Jason Elroy Martis
 
 
