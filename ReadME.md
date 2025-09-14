@@ -69,17 +69,17 @@ Root/
 ```
 
 ## Datasets Used
-Acne recognition dataset: https://drive.google.com/drive/folders/1SA3nboBWxZHm04rsq--ezd7ZwnFxfLc6?usp=sharing
-CUHK: https://drive.google.com/drive/folders/1SB4W-9FO-IAy91z2cRxZHLWiUD1fjJgY?usp=sharing
-AR: https://drive.google.com/drive/folders/1t3EgNgA1PdJZqDcenVCpjmXvVQ8VwouI?usp=sharing
-XM2GTS: https://drive.google.com/drive/folders/1l_wPPVDg-_7GM0QIqh-BXx10QAWCivt7?usp=sharing
+1. Acne recognition dataset: https://drive.google.com/drive/folders/1SA3nboBWxZHm04rsq--ezd7ZwnFxfLc6?usp=sharing
+2. CUHK: https://drive.google.com/drive/folders/1SB4W-9FO-IAy91z2cRxZHLWiUD1fjJgY?usp=sharing
+3. AR: https://drive.google.com/drive/folders/1t3EgNgA1PdJZqDcenVCpjmXvVQ8VwouI?usp=sharing
+4. XM2GTS: https://drive.google.com/drive/folders/1l_wPPVDg-_7GM0QIqh-BXx10QAWCivt7?usp=sharing
 
 ## How to Run
-1. SketchModule
+### SketchModule
 ```
 cd SketchModule
 ```
-2. Organize your dataset as:
+Organize your dataset as:
 ```
 data/
    dataset/
@@ -92,5 +92,10 @@ data/
          sketch_02.jpg
          ...
 ```
-3. Execute: ```python image_to_sketch.py```
-4. Results will appear in: ```SketchModule/code/results/```
+Execute: ```python image_to_sketch.py```
+Results will appear in: ```SketchModule/code/results/```
+
+### 2. SuperResolutionModule
+```
+cd SuperResolutionModule
+```
