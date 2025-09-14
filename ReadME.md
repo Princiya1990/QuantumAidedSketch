@@ -129,4 +129,4 @@ Extract features:
 cd helpers
 python feature_extractor.py
 ```
-Train and classify: ```Not yet done```
+Train and classify: ```python quantum_module.py```

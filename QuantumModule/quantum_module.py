@@ -91,4 +91,4 @@ y_test_torch = torch.tensor(y_test, dtype=torch.long)
 with torch.no_grad():
     preds = model(X_test_torch).argmax(dim=1)
     acc = (preds == y_test_torch).sum().item() / len(y_test_torch)
-    print("✅ Test Accuracy:", acc)
+    print("Test Accuracy:", acc)
