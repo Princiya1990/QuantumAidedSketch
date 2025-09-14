@@ -1,4 +1,6 @@
 # Quantum-Aided Acne Severity Detection: A Framework with Enhanced Sketch-Based Imaging
+#### Philomina Princiya Mascarenhas, Sannidhan M S, Jason Elroy Martis
+
 
 We present a **Quantum powered image processing framework** for enhancing acne severity detection.  
 Our approach leverages **Sketch Transformation, Super Resolution, and Quantum Networks** to effectively enhance sketches and classify acne severity classes.
