@@ -75,7 +75,7 @@ Root/
 4. XM2GTS: https://drive.google.com/drive/folders/1l_wPPVDg-_7GM0QIqh-BXx10QAWCivt7?usp=sharing
 
 ## How to Run
-### SketchModule
+### 1. SketchModule
 ```
 cd SketchModule
 ```
@@ -99,3 +99,32 @@ Results will appear in: ```SketchModule/code/results/```
 ```
 cd SuperResolutionModule
 ```
+Organize your dataset as:
+```
+data/
+   HR/
+      01.jpg
+      02.jpg
+      ...
+   LR/
+      01.jpg
+      02.jpg
+      ...
+```
+Execute: ```python superresolute_runner.py```
+Results will appear in: ```data/HR```
+
+### 3. QuantumModule
+```
+cd QuantumModule
+```
+Prepare your data:
+    1. Place super-resolved sketches in: data/superesolvedsketches/
+    2. Add acne labels in: labels.csv
+
+Extract features: 
+```
+cd helpers
+python feature_extractor.py
+```
+Train and classify: ```Not yet done```
