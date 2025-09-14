@@ -121,8 +121,8 @@ Results will appear in: ```data/HR```
 cd QuantumModule
 ```
 Prepare your data:
-    1. Place super-resolved sketches in: data/superesolvedsketches/
-    2. Add acne labels in: labels.csv
+1. Place super-resolved sketches in: data/superesolvedsketches/
+2. Add acne labels in: labels.csv
 
 Extract features: 
 ```
