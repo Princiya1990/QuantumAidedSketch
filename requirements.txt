@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+torch
+torchvision
+torchaudio
+tensorlayerx
+tensorflow==2.13.0
+opencv-python
+pillow
+qiskit
+qiskit-machine-learning
+tqdm

@@ -1,0 +1,11 @@
+numpy
+pillow
+torch
+torchvision
+scikit-learn
+tensorlayerx
+tensorflow==2.13.0
+qiskit
+qiskit-machine-learning
+gradio
+pyyaml

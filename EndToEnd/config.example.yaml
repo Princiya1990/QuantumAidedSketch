@@ -1,0 +1,12 @@
+# Override defaults for the end-to-end inference pipeline.
+# Relative paths are resolved from this file's directory.
+
+model_dir: ./models
+sr_generator: ./models/srgan_g.npz          # trained SRGAN generator weights
+quantum_classifier: ./models/quantum_classifier.pt  # trained HybridNet state_dict
+scaler: ./models/quantum_scaler.pkl         # fitted StandardScaler (optional)
+pca: ./models/quantum_pca.pkl               # fitted PCA used before scaling (optional)
+label_names: ["IGA-0", "IGA-1", "IGA-2", "IGA-3", "IGA-4"]
+
+# Optional: Pix2Pix generator (photo -> sketch). If set, pipeline can take photos directly (--from-photo).
+pix2pix_generator: ../SketchModule/code/checkpoints/results/latest_net_G.pth
